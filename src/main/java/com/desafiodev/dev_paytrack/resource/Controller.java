@@ -15,7 +15,7 @@ import com.desafiodev.dev_paytrack.entities.Veterinario;
 import com.desafiodev.dev_paytrack.service.Consulta;
 
 @RestController
-@RequestMapping("/consultas")
+@RequestMapping("/controller")
 public class Controller {
 	
     @PostMapping("/agruparConsultas")
@@ -29,9 +29,9 @@ public class Controller {
             veterinario.getConsultas().add(consulta);
             veterinario.setValorTotalConsultas(veterinario.getValorTotalConsultas() + consulta.getValorConsulta());
         }
-
+        
         List<Veterinario> resultado = new ArrayList<>(veterinariosFicha.values());
-
+        
         return ResponseEntity.ok(resultado);
     }
 
