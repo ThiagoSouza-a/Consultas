@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.desafiodev.dev_paytrack.entities.Consulta;
 import com.desafiodev.dev_paytrack.entities.Veterinario;
-import com.desafiodev.dev_paytrack.service.Consulta;
 
 @RestController
 @RequestMapping("/controller")

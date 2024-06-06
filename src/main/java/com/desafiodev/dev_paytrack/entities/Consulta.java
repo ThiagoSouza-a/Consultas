@@ -1,4 +1,4 @@
-package com.desafiodev.dev_paytrack.service;
+package com.desafiodev.dev_paytrack.entities;
 
 import java.io.Serializable;
 import java.util.Objects;

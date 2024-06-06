@@ -2,8 +2,6 @@ package com.desafiodev.dev_paytrack.entities;
 
 import java.util.List;
 
-import com.desafiodev.dev_paytrack.service.Consulta;
-
 public class Veterinario {
 	
 	private String nomeVeterinario;
